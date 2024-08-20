@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+//GUESS NUMBER PROJECT
 int main()
 {
     int number, guess, nguess = 1;
@@ -13,11 +14,11 @@ int main()
         scanf("%d", &guess);
         if (guess > number)
         {
-            printf("Lower Number please!\n");
+            printf("Lower Number Please!\n");
         }
         else if (guess < number)
         {
-            printf("Higher Number please!\n");
+            printf("Higher Number Please!\n");
         }
         else
         {
